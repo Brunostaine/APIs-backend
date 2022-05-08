@@ -1,0 +1,32 @@
+http://localhost:3000/usuarios
+
+###
+http://localhost:3000/perguntas
+
+###
+
+http://localhost:3000/Alunos
+
+###
+
+POST http://localhost:3000/perguntas HTTP/1.1
+content-type: application/json
+
+{
+      
+      "pergunta": "O aluno sabe ler espanhol?"
+    }
+
+###
+
+PUT http://localhost:3000/perguntas/4 HTTP/1.1
+content-type: application/json
+
+{
+      
+      "pergunta": "O aluno sabe ler chinês?"
+    }
+
+###
+
+DELETE http://localhost:3000/perguntas/4

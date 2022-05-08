@@ -1,0 +1,40 @@
+{
+  "usuarios": [
+    {
+      "id": 1,
+      "usuario": "admin",
+      "senha": "admin"
+    }
+  ],
+  "perguntas": [
+    {
+      "id": 1,
+      "pergunta": "O aluno sabe ler e escrever?"
+    },
+    {
+      "id": 2,
+      "pergunta": "O aluno gosta de frutas?"
+    },
+    {
+      "id": 3,
+      "pergunta": "O aluno sabe ler inglês?"
+    }
+  ],
+  "Alunos": [
+    {
+      "id": 1,
+      "nome": "Maria Joaquina",
+      "turma": "8A"
+    },
+    {
+      "id": 2,
+      "nome": "João da Silva",
+      "turma": "8A"
+    },
+    {
+      "id": 3,
+      "nome": "Mario Alcantara",
+      "turma": "8B"
+    }
+  ]
+}
